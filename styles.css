@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap');
+
+.main {
+    margin-top: 10px;
+}
+
+.city-img {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    border: 5px solid blue;
+  }
+
+h1 {
+    color: rgb(10, 10, 185);
+    font-family: 'Honk', system-ui;
+    font-size: 52px;
+    text-align: center;
+}
+
+h2 {
+    font-family: monospace;
+    color: coral;
+    text-align: center;
+}
+
+.sub-heading{
+    color: rgb(255, 89, 0);
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 15px;
+}
