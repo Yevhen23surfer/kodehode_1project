@@ -7,11 +7,16 @@
 .city-img {
     display: block;
     width: 95%;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 5px;
-    border: 5px solid blue;
+    padding: 20px;
+    /* border: 5px solid blue; */
   }
+
+.city-img:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3ltOW1yZnB3M2Y4bmQ5eDBkZjdsc2YwajE1azUwcTN6ZGI3OGJjZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wwg1suUiTbCY8H8vIA/giphy-downsized-large.gif");
+}
 
 h1 {
     color: rgb(10, 10, 185);
@@ -41,4 +46,60 @@ p {
 li {
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 15px;
+}
+
+#H5res {
+    text-align: center;
+    color: #01326a;
+}
+
+#res5 {
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container-text{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: wrap; */
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px 0px;
+}
+
+.items {
+    background: linear-gradient(#1d1446, #01326a);
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px black;
+    width: 250px;
+    /* height: 500px; */
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.items:nth-child(1) {
+    
+}
+
+.items:nth-child(2) {
+    
+}
+
+.items:nth-child(3) {
+    
+}
+
+.items:nth-child(4) {
+    
+}
+
+.items:nth-child(5) {
+    
 }
