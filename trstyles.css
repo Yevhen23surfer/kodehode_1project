@@ -1,0 +1,22 @@
+.new{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(172, 172, 24);
+    /* transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 0.5s; */
+    /* transition: width 1s 0.5s, height 2s 0.5s; */
+    transition: all 1s;
+    transition-timing-function: ease-in;
+    color: rgb(47, 47, 47);
+
+}
+
+.new:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(127, 18, 135);
+    border: 5px rgb(50, 50, 205) solid;
+    color: #fff;
+    text-align: center;
+}
