@@ -82,4 +82,16 @@ li {
     text-align: center;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    animation-name: itemsa;
+    animation-timing-function: linear;
+}
+
+@keyframes itemsa{
+    0% {
+        /* background: linear-gradient(#1d1446, #01326a); */
+    }
+
+    100% {
+        background: linear-gradient(#116a17, #7aaa00);
+    }
 }
